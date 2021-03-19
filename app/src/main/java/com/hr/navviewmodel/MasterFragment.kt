@@ -40,7 +40,7 @@ class MasterFragment : Fragment() {
         binding.bt.setOnClickListener {
             var findNavController = Navigation.findNavController(it)
             findNavController.navigate(R.id.action_masterFragment_to_detailFragment)
-        }g
+        }
         binding.data = viewModel
         binding.lifecycleOwner = this
 
